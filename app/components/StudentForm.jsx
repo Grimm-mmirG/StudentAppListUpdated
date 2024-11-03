@@ -10,9 +10,8 @@ const StudentForm = ({ addStudent }) => {
     e.preventDefault();
     if (firstName && lastName && dateOfBirth && grade) {
       const newStudent = { firstName, lastName, dateOfBirth, grade };
-      addStudent(newStudent); // Call the addStudent function from props
+      addStudent(newStudent); 
 
-      // Clear the form after submission
       setFirstName('');
       setLastName('');
       setDateOfBirth('');

@@ -24,7 +24,7 @@ export default function Home() {
       }
   
       const student = await response.json();
-      setStudents((prevStudents) => [...prevStudents, student]); // Update the local state
+      setStudents((prevStudents) => [...prevStudents, student]); 
     } catch (error) {
       console.error(error);
     }

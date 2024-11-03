@@ -26,7 +26,7 @@ const StudentList = ({ setSelectedStudent }) => {
   if (loading) return <p>Loading students...</p>;
   if (error) return <p>Error: {error}</p>;
 
-  // Ensure students is not undefined and handle the case where it's empty
+  
   if (!students || students.length === 0) {
     return <p>No students found. Please add some students.</p>;
   }
