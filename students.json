@@ -1,0 +1,10 @@
+{
+  "students": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "2005-04-23",
+      "grade": 10
+    }
+  ]
+}
